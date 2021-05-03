@@ -1,0 +1,54 @@
+.pads {
+    &__wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    &__title {
+        padding-top: 83px;
+        @include font(Poppins, normal, 200, 30px, 39px, #000000);
+        text-align: center;
+    }
+    &__reviews {
+        margin-top: 18px;
+        @include font(Poppins, normal, 300, 14px, 18px, #000000);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__reviews > img:first-of-type {
+        margin-left: 5px;
+    }
+    &__description {
+        margin-top: 10px;
+        @include font(Poppins, normal, 300, 14px, 24px, #000000);
+        text-align: center;
+    }
+    &__prices {
+        margin-top: 12px;
+        text-align: center;
+    }
+    &__button {
+        width: 335px;
+        height: 54px;
+        margin-top: 18px;
+        @include font(Poppins, normal, 400, 14px, 21px, #ffffff);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000000;
+    }
+}
+
+.prices {
+    &__old {
+        @include font(Poppins, normal, 200, 16px, 24px, #000000);
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    &__new {
+        margin-left: 15px;
+        @include font(Poppins, normal, 200, 30px, 45px, #000000);
+    }
+}
