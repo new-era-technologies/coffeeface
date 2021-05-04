@@ -1,0 +1,40 @@
+.testimonials {
+    &__title {
+        padding-top: 57px;
+        @include font(Poppins, normal, 200, 30px, 45px, #000000);
+        text-align: center;
+    }
+    &__img {
+        margin-top: 63px;
+    }
+}
+
+.slider-monial {
+    margin-top: 28px;
+    position: relative;
+    &__control {
+        position: absolute;
+        top: 15px;
+        &--left {
+            left: 0;
+        }
+        &--right {
+            right: 0;
+        }
+    }
+}
+
+.slide-monial, .slide-monial__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__figcaption {
+        margin-top: 3px;
+        @include font(Poppins, normal, 500, 16px, 27px, #000000);
+    }
+    &__description {
+        margin-top: 11px;
+        @include font(Poppins, normal, 300, 14px, 24px, #000000);
+        text-align: center;
+    }
+}
