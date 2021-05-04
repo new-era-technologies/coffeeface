@@ -1,6 +1,10 @@
 .blog {
     &__wrapper {
         margin-top: -80px;
+        overflow: hidden;
+    }
+    &__inner {
+        height: 114px;
     }
     &__inner--black {
         width: 100%;

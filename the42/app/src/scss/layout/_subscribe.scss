@@ -1,0 +1,42 @@
+.subscribe {
+    &__wrapper {
+        background: url(../assets/img/subscribe/subscribe-bg.png);
+        background-size: cover;
+    }
+    &__inner--img {
+        width: 335px;
+        margin: 30px auto 0;
+        display: flex;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    &__title {
+        padding-top: 53px;
+        @include font(Poppins, normal, 200, 30px, 45px, #000000);
+        text-align: center;
+    }
+    &__description {
+        margin-top: 50px;
+        @include font(Poppins, normal, 300, 16px, 28px, #000000);
+        text-align: center;
+    }
+    &__email,
+    &__submit {
+        width: 335px;
+        height: 54px;
+        margin-top: 10px;
+        @include font(Poppins, normal, 400, 14px, 21px, #000000);
+        box-sizing: border-box;
+        outline: none;
+    }
+    &__email {
+        padding-left: 20px;
+        border: 1px solid #000000;
+    }
+    &__submit {
+        border: none;
+        color: #ffffff;
+        background: #000000;
+        cursor: pointer;
+    }
+}
